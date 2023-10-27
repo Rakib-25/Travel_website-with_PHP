@@ -1,0 +1,132 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(ragister.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: sans-serif;
+    padding-right: 15%;
+}
+.register{
+
+    width: 400;
+    height: 600;
+    background-color: rgba(43, 166, 182, 0);
+    margin: auto;
+}
+form{
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 40px;
+    
+}
+form label{
+    color: white;    
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+}
+form input{
+    background: transparent;
+    border-radius: 15px;
+    border-color: rgb(53, 161, 17);
+    width: 100%;
+    height: 35px;
+    padding: auto;
+    color: white;
+    font-weight: bolder;
+
+}
+input[type="submit"]{
+    width: 100px;
+    text-align: center;
+    margin-left: 100px;
+}
+.box{
+    padding-right: 10%;
+    text-align: justify;
+    border-radius: 15px;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 65%;
+    
+}
+
+
+.content{
+    width: 10%;
+    position: absolute;
+    padding-left: 5%;
+    top: 73%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+button{
+    width: 200px;
+    padding: 15px  0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+button:hover span{
+    width: 50%;
+}
+.login{
+    text-transform: uppercase;
+    padding-right: 10%;
+    border: #009688;
+    border-radius: 25px;
+    color: white;
+    position: relative;
+}
+.login button{
+    text-transform: uppercase;
+    position: absolute;
+    transform: translateY(-50%);
+    text-align:center ;
+}
+button{
+    width: 200px;
+    padding: 15px  0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background-color: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
